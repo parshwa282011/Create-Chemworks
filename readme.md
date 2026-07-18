@@ -17,9 +17,11 @@ A Minecraft 1.21.1 mod built with NeoForge and Create.
 ./gradlew runClientMilet
 ```
 
-Each client task has an isolated run directory and an offline development identity.
-Change the `dev_username_*` values in `gradle.properties` to use different display
-names. These values do not log into or verify real Microsoft/Minecraft accounts.
+Each client task has an isolated run directory and a named DevLogin profile. On the
+first launch, copy the device code printed in the terminal, open
+`https://www.microsoft.com/link`, and sign in with the matching Minecraft-owning
+Microsoft account. DevLogin caches each profile under `~/.devlogin/`; never commit,
+share, or upload that directory because its files contain authentication tokens.
 
 The client uses `run/`. Its development profile includes Create, JEI, e4mc, Sodium,
 FerriteCore, ModernFix, Jade, AppleSkin, and Mouse Tweaks. These helper mods are

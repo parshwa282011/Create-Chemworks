@@ -33,26 +33,30 @@ neoForge {
     runs {
         clientParshwa {
             client()
+            devLogin = true
             gameDirectory = project.file('run-parshwa')
-            programArguments.addAll '--username', project.dev_username_parshwa
+            programArguments.addAll '--launch_profile', 'parshwa'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         clientHursh {
             client()
+            devLogin = true
             gameDirectory = project.file('run-hursh')
-            programArguments.addAll '--username', project.dev_username_hursh
+            programArguments.addAll '--launch_profile', 'hursh'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         clientAdvait {
             client()
+            devLogin = true
             gameDirectory = project.file('run-advait')
-            programArguments.addAll '--username', project.dev_username_advait
+            programArguments.addAll '--launch_profile', 'advait'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         clientMilet {
             client()
+            devLogin = true
             gameDirectory = project.file('run-milet')
-            programArguments.addAll '--username', project.dev_username_milet
+            programArguments.addAll '--launch_profile', 'milet'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         server {

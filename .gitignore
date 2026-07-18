@@ -1,0 +1,13 @@
+.gradle/
+build/
+out/
+bin/
+run/
+run-server/
+run-data/
+*.iml
+.idea/
+.vscode/
+eula.txt
+logs/
+crash-reports/

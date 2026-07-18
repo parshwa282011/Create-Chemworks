@@ -3,6 +3,10 @@ build/
 out/
 bin/
 run/
+run-parshwa/
+run-hursh/
+run-advait/
+run-milet/
 run-server/
 run-data/
 *.iml

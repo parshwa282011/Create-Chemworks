@@ -31,9 +31,28 @@ neoForge {
         minecraftVersion = project.parchment_minecraft_version
     }
     runs {
-        client {
+        clientParshwa {
             client()
-            gameDirectory = project.file('run')
+            gameDirectory = project.file('run-parshwa')
+            programArguments.addAll '--username', project.dev_username_parshwa
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        clientHursh {
+            client()
+            gameDirectory = project.file('run-hursh')
+            programArguments.addAll '--username', project.dev_username_hursh
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        clientAdvait {
+            client()
+            gameDirectory = project.file('run-advait')
+            programArguments.addAll '--username', project.dev_username_advait
+            systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
+        }
+        clientMilet {
+            client()
+            gameDirectory = project.file('run-milet')
+            programArguments.addAll '--username', project.dev_username_milet
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         server {

@@ -11,8 +11,15 @@ A Minecraft 1.21.1 mod built with NeoForge and Create.
 
 ```sh
 ./gradlew build
-./gradlew runClient
+./gradlew runClientParshwa
+./gradlew runClientHursh
+./gradlew runClientAdvait
+./gradlew runClientMilet
 ```
+
+Each client task has an isolated run directory and an offline development identity.
+Change the `dev_username_*` values in `gradle.properties` to use different display
+names. These values do not log into or verify real Microsoft/Minecraft accounts.
 
 The client uses `run/`. Its development profile includes Create, JEI, e4mc, Sodium,
 FerriteCore, ModernFix, Jade, AppleSkin, and Mouse Tweaks. These helper mods are

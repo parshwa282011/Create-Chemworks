@@ -1,3 +1,5 @@
 {
-  "itemGroup.create_chemworks": "Create: Chemworks"
+  "itemGroup.create_chemworks": "Create: Chemworks",
+  "item.create_chemworks.flask": "Flask",
+  "item.create_chemworks.creative_flask": "Creative Flask"
 }

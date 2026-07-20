@@ -1,0 +1,7 @@
+{
+  "itemGroup.create_chemworks": "Create: Chemworks",
+  "item.create_chemworks.flask": "Flask",
+  "item.create_chemworks.creative_flask": "Creative Flask",
+  "screen.create_chemworks.periodic_table": "Periodic Table",
+  "screen.create_chemworks.periodic_table.hint": "Hover over an element for its atomic number and name"
+}

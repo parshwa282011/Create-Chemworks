@@ -1,0 +1,31 @@
+{
+  "parent": "sol",
+  "name": "mars",
+  "dimension_data": {
+    "allowed_transfer": "all",
+    "apply_gravity_correction_to_entities_in_dimension": true,
+    "atmosphere_composition": {
+      "21000": [
+        "low_density",
+        "drowning"
+      ]
+    },
+    "dimension_day_time_controller_name": "sol",
+    "dimension_transfer_height": 20000,
+    "entity_drag_multiplier": [
+      {
+        "altitude": 4000.0,
+        "slope": 0.0,
+        "value": 1.0
+      },
+      {
+        "altitude": 7000.0,
+        "slope": -0.0006,
+        "value": 0.0
+      }
+    ],
+    "linked_dimension": "create_chemworks:mars",
+    "render_universe_in_dimension": true
+  },
+  "priority": 1000
+}

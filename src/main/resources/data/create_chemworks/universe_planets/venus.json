@@ -1,0 +1,64 @@
+{
+  "parent": "sol",
+  "name": "venus",
+  "acceleration_at_surface": 8.87,
+  "radius": 2700000.0,
+  "position": {
+    "type": "circular_orbit_period",
+    "position_direction": {
+      "x": -0.5,
+      "y": 0.0,
+      "z": 0.86
+    },
+    "orbit_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "period_seconds": 372600.0
+  },
+  "rotation": {
+    "type": "period",
+    "period_seconds": 11664.0,
+    "rotation_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    }
+  },
+  "planet_extras": {
+    "has_clouds": true,
+    "light_source_name": "sol"
+  },
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "minecraft:textures/block/yellow_terracotta.png"
+  },
+  "priority": 1000,
+  "dimension_data": {
+    "allowed_transfer": "all",
+    "apply_gravity_correction_to_entities_in_dimension": true,
+    "atmosphere_composition": {
+      "21000": [
+        "low_density",
+        "drowning"
+      ]
+    },
+    "dimension_day_time_controller_name": "sol",
+    "dimension_transfer_height": 20000,
+    "entity_drag_multiplier": [
+      {
+        "altitude": 4000.0,
+        "slope": 0.0,
+        "value": 1.0
+      },
+      {
+        "altitude": 7000.0,
+        "slope": -0.0006,
+        "value": 0.0
+      }
+    ],
+    "linked_dimension": "create_chemworks:venus",
+    "render_universe_in_dimension": true
+  }
+}

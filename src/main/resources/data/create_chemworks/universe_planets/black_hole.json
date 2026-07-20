@@ -1,0 +1,20 @@
+{
+  "parent": "root",
+  "name": "black_hole",
+  "mu": 5.0E21,
+  "radius": 1.2E9,
+  "position": {
+    "type": "fixed",
+    "position": { "x": 0.0, "y": 0.0, "z": 0.0 }
+  },
+  "rotation": {
+    "type": "period",
+    "period_seconds": 2400.0,
+    "rotation_axis": { "x": 0.0, "y": 1.0, "z": 0.0 }
+  },
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "minecraft:textures/block/black_concrete.png"
+  },
+  "priority": 1000
+}

@@ -1,0 +1,16 @@
+{
+  "dimension": "create_chemworks:venus",
+  "priority": 1000,
+  "universal_drag": 0,
+  "base_gravity": [
+    0,
+    -8.87,
+    0
+  ],
+  "base_pressure": 0,
+  "magnetic_north": [
+    0,
+    0,
+    0
+  ]
+}

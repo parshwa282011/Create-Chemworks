@@ -9,7 +9,7 @@ version = mod_version
 group = mod_group_id
 
 base { archivesName = mod_id }
-java.toolchain.languageVersion = JavaLanguageVersion.of(21)
+java.toolchain.languageVersion = JavaLanguageVersion.of(25)
 
 repositories {
     maven { url = 'https://maven.createmod.net' }
@@ -38,11 +38,11 @@ neoForge {
             programArguments.addAll '--launch_profile', 'parshwa'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
-        clientHursh {
+        clientHurshy {
             client()
             devLogin = true
-            gameDirectory = project.file('run-hursh')
-            programArguments.addAll '--launch_profile', 'hursh'
+            gameDirectory = project.file('run-hurshy')
+            programArguments.addAll '--launch_profile', 'hurshy'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         clientAdvait {
@@ -55,8 +55,8 @@ neoForge {
         clientMilet {
             client()
             devLogin = true
-            gameDirectory = project.file('run-milet')
-            programArguments.addAll '--launch_profile', 'milet'
+            gameDirectory = project.file('run-milit')
+            programArguments.addAll '--launch_profile', 'milit'
             systemProperty 'neoforge.enabledGameTestNamespaces', project.mod_id
         }
         server {
@@ -90,6 +90,13 @@ configurations {
 dependencies {
     // Required API and runtime dependency for this mod.
     implementation "com.simibubi.create:create-${minecraft_version}:${create_version}"
+
+    // Create: Chemworks is a Cosmonautics addon. These pinned runtime artifacts
+    // make every Gradle client/server run resolve Cosmonautics and its required
+    // Aeronautics + Sable physics stack automatically.
+    localRuntime "maven.modrinth:create-cosmonatics:${cosmonautics_version}"
+    localRuntime "maven.modrinth:create-aeronautics:${aeronautics_version}"
+    localRuntime "maven.modrinth:sable:${sable_version}"
 
     // Optional integration: compile against JEI APIs and load full JEI while developing.
     compileOnly "mezz.jei:jei-${minecraft_version}-common-api:${jei_version}"

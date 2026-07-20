@@ -1,0 +1,559 @@
+atomic_number,symbol,element_name,period,electron_block,column,production_rule,celestial_source,designer_status,notes
+1,H,Hydrogen,1,s,0,Existing real element,Real-world element,Not started,Real element
+2,He,Helium,1,s,18,Existing real element,Real-world element,Not started,Real element
+3,Li,Lithium,2,s,0,Existing real element,Real-world element,Not started,Real element
+4,Be,Beryllium,2,s,1,Existing real element,Real-world element,Not started,Real element
+5,B,Boron,2,p,13,Existing real element,Real-world element,Not started,Real element
+6,C,Carbon,2,p,14,Existing real element,Real-world element,Not started,Real element
+7,N,Nitrogen,2,p,15,Existing real element,Real-world element,Not started,Real element
+8,O,Oxygen,2,p,16,Existing real element,Real-world element,Not started,Real element
+9,F,Fluorine,2,p,17,Existing real element,Real-world element,Not started,Real element
+10,Ne,Neon,2,p,18,Existing real element,Real-world element,Not started,Real element
+11,Na,Sodium,3,s,0,Existing real element,Real-world element,Not started,Real element
+12,Mg,Magnesium,3,s,1,Existing real element,Real-world element,Not started,Real element
+13,Al,Aluminium,3,p,13,Existing real element,Real-world element,Not started,Real element
+14,Si,Silicon,3,p,14,Existing real element,Real-world element,Not started,Real element
+15,P,Phosphorus,3,p,15,Existing real element,Real-world element,Not started,Real element
+16,S,Sulfur,3,p,16,Existing real element,Real-world element,Not started,Real element
+17,Cl,Chlorine,3,p,17,Existing real element,Real-world element,Not started,Real element
+18,Ar,Argon,3,p,18,Existing real element,Real-world element,Not started,Real element
+19,K,Potassium,4,s,0,Existing real element,Real-world element,Not started,Real element
+20,Ca,Calcium,4,s,1,Existing real element,Real-world element,Not started,Real element
+21,Sc,Scandium,4,d,3,Existing real element,Real-world element,Not started,Real element
+22,Ti,Titanium,4,d,4,Existing real element,Real-world element,Not started,Real element
+23,V,Vanadium,4,d,5,Existing real element,Real-world element,Not started,Real element
+24,Cr,Chromium,4,d,6,Existing real element,Real-world element,Not started,Real element
+25,Mn,Manganese,4,d,7,Existing real element,Real-world element,Not started,Real element
+26,Fe,Iron,4,d,8,Existing real element,Real-world element,Not started,Real element
+27,Co,Cobalt,4,d,9,Existing real element,Real-world element,Not started,Real element
+28,Ni,Nickel,4,d,10,Existing real element,Real-world element,Not started,Real element
+29,Cu,Copper,4,d,11,Existing real element,Real-world element,Not started,Real element
+30,Zn,Zinc,4,d,12,Existing real element,Real-world element,Not started,Real element
+31,Ga,Gallium,4,p,13,Existing real element,Real-world element,Not started,Real element
+32,Ge,Germanium,4,p,14,Existing real element,Real-world element,Not started,Real element
+33,As,Arsenic,4,p,15,Existing real element,Real-world element,Not started,Real element
+34,Se,Selenium,4,p,16,Existing real element,Real-world element,Not started,Real element
+35,Br,Bromine,4,p,17,Existing real element,Real-world element,Not started,Real element
+36,Kr,Krypton,4,p,18,Existing real element,Real-world element,Not started,Real element
+37,Rb,Rubidium,5,s,0,Existing real element,Real-world element,Not started,Real element
+38,Sr,Strontium,5,s,1,Existing real element,Real-world element,Not started,Real element
+39,Y,Yttrium,5,d,3,Existing real element,Real-world element,Not started,Real element
+40,Zr,Zirconium,5,d,4,Existing real element,Real-world element,Not started,Real element
+41,Nb,Niobium,5,d,5,Existing real element,Real-world element,Not started,Real element
+42,Mo,Molybdenum,5,d,6,Existing real element,Real-world element,Not started,Real element
+43,Tc,Technetium,5,d,7,Existing real element,Real-world element,Not started,Real element
+44,Ru,Ruthenium,5,d,8,Existing real element,Real-world element,Not started,Real element
+45,Rh,Rhodium,5,d,9,Existing real element,Real-world element,Not started,Real element
+46,Pd,Palladium,5,d,10,Existing real element,Real-world element,Not started,Real element
+47,Ag,Silver,5,d,11,Existing real element,Real-world element,Not started,Real element
+48,Cd,Cadmium,5,d,12,Existing real element,Real-world element,Not started,Real element
+49,In,Indium,5,p,13,Existing real element,Real-world element,Not started,Real element
+50,Sn,Tin,5,p,14,Existing real element,Real-world element,Not started,Real element
+51,Sb,Antimony,5,p,15,Existing real element,Real-world element,Not started,Real element
+52,Te,Tellurium,5,p,16,Existing real element,Real-world element,Not started,Real element
+53,I,Iodine,5,p,17,Existing real element,Real-world element,Not started,Real element
+54,Xe,Xenon,5,p,18,Existing real element,Real-world element,Not started,Real element
+55,Cs,Caesium,6,s,0,Existing real element,Real-world element,Not started,Real element
+56,Ba,Barium,6,s,1,Existing real element,Real-world element,Not started,Real element
+57,La,Lanthanum,6,f,0,Existing real element,Real-world element,Not started,Real element
+58,Ce,Cerium,6,f,1,Existing real element,Real-world element,Not started,Real element
+59,Pr,Praseodymium,6,f,2,Existing real element,Real-world element,Not started,Real element
+60,Nd,Neodymium,6,f,3,Existing real element,Real-world element,Not started,Real element
+61,Pm,Promethium,6,f,4,Existing real element,Real-world element,Not started,Real element
+62,Sm,Samarium,6,f,5,Existing real element,Real-world element,Not started,Real element
+63,Eu,Europium,6,f,6,Existing real element,Real-world element,Not started,Real element
+64,Gd,Gadolinium,6,f,7,Existing real element,Real-world element,Not started,Real element
+65,Tb,Terbium,6,f,8,Existing real element,Real-world element,Not started,Real element
+66,Dy,Dysprosium,6,f,9,Existing real element,Real-world element,Not started,Real element
+67,Ho,Holmium,6,f,10,Existing real element,Real-world element,Not started,Real element
+68,Er,Erbium,6,f,11,Existing real element,Real-world element,Not started,Real element
+69,Tm,Thulium,6,f,12,Existing real element,Real-world element,Not started,Real element
+70,Yb,Ytterbium,6,f,13,Existing real element,Real-world element,Not started,Real element
+71,Lu,Lutetium,6,d,3,Existing real element,Real-world element,Not started,Real element
+72,Hf,Hafnium,6,d,4,Existing real element,Real-world element,Not started,Real element
+73,Ta,Tantalum,6,d,5,Existing real element,Real-world element,Not started,Real element
+74,W,Tungsten,6,d,6,Existing real element,Real-world element,Not started,Real element
+75,Re,Rhenium,6,d,7,Existing real element,Real-world element,Not started,Real element
+76,Os,Osmium,6,d,8,Existing real element,Real-world element,Not started,Real element
+77,Ir,Iridium,6,d,9,Existing real element,Real-world element,Not started,Real element
+78,Pt,Platinum,6,d,10,Existing real element,Real-world element,Not started,Real element
+79,Au,Gold,6,d,11,Existing real element,Real-world element,Not started,Real element
+80,Hg,Mercury,6,d,12,Existing real element,Real-world element,Not started,Real element
+81,Tl,Thallium,6,p,13,Existing real element,Real-world element,Not started,Real element
+82,Pb,Lead,6,p,14,Existing real element,Real-world element,Not started,Real element
+83,Bi,Bismuth,6,p,15,Existing real element,Real-world element,Not started,Real element
+84,Po,Polonium,6,p,16,Existing real element,Real-world element,Not started,Real element
+85,At,Astatine,6,p,17,Existing real element,Real-world element,Not started,Real element
+86,Rn,Radon,6,p,18,Existing real element,Real-world element,Not started,Real element
+87,Fr,Francium,7,s,0,Existing real element,Real-world element,Not started,Real element
+88,Ra,Radium,7,s,1,Existing real element,Real-world element,Not started,Real element
+89,Ac,Actinium,7,f,0,Existing real element,Real-world element,Not started,Real element
+90,Th,Thorium,7,f,1,Existing real element,Real-world element,Not started,Real element
+91,Pa,Protactinium,7,f,2,Existing real element,Real-world element,Not started,Real element
+92,U,Uranium,7,f,3,Existing real element,Real-world element,Not started,Real element
+93,Np,Neptunium,7,f,4,Existing real element,Real-world element,Not started,Real element
+94,Pu,Plutonium,7,f,5,Existing real element,Real-world element,Not started,Real element
+95,Am,Americium,7,f,6,Existing real element,Real-world element,Not started,Real element
+96,Cm,Curium,7,f,7,Existing real element,Real-world element,Not started,Real element
+97,Bk,Berkelium,7,f,8,Existing real element,Real-world element,Not started,Real element
+98,Cf,Californium,7,f,9,Existing real element,Real-world element,Not started,Real element
+99,Es,Einsteinium,7,f,10,Existing real element,Real-world element,Not started,Real element
+100,Fm,Fermium,7,f,11,Existing real element,Real-world element,Not started,Real element
+101,Md,Mendelevium,7,f,12,Existing real element,Real-world element,Not started,Real element
+102,No,Nobelium,7,f,13,Existing real element,Real-world element,Not started,Real element
+103,Lr,Lawrencium,7,d,3,Existing real element,Real-world element,Not started,Real element
+104,Rf,Rutherfordium,7,d,4,Existing real element,Real-world element,Not started,Real element
+105,Db,Dubnium,7,d,5,Existing real element,Real-world element,Not started,Real element
+106,Sg,Seaborgium,7,d,6,Existing real element,Real-world element,Not started,Real element
+107,Bh,Bohrium,7,d,7,Existing real element,Real-world element,Not started,Real element
+108,Hs,Hassium,7,d,8,Existing real element,Real-world element,Not started,Real element
+109,Mt,Meitnerium,7,d,9,Existing real element,Real-world element,Not started,Real element
+110,Ds,Darmstadtium,7,d,10,Existing real element,Real-world element,Not started,Real element
+111,Rg,Roentgenium,7,d,11,Existing real element,Real-world element,Not started,Real element
+112,Cn,Copernicium,7,d,12,Existing real element,Real-world element,Not started,Real element
+113,Nh,Nihonium,7,p,13,Existing real element,Real-world element,Not started,Real element
+114,Fl,Flerovium,7,p,14,Existing real element,Real-world element,Not started,Real element
+115,Mc,Moscovium,7,p,15,Existing real element,Real-world element,Not started,Real element
+116,Lv,Livermorium,7,p,16,Existing real element,Real-world element,Not started,Real element
+117,Ts,Tennessine,7,p,17,Existing real element,Real-world element,Not started,Real element
+118,Og,Oganesson,7,p,18,Existing real element,Real-world element,Not started,Real element
+119,An,Ancientium,8,s,0,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+120,Aa,Catalyrium,8,s,1,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+121,Ab,Resonarium,8,h,0,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+122,Ad,Voltrium,8,h,1,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+123,Ae,Synthium,8,h,2,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+124,Af,Adaptium,8,h,3,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+125,Ah,Unifornium,8,h,4,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+126,Ai,Terralium,8,h,5,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+127,Aj,Lunarium,8,h,6,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+128,Ak,Levitium,8,h,7,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+129,Ao,Pyronium,8,h,8,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+130,Ap,Aresium,8,h,9,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+131,Aq,Harmonium,8,h,10,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+132,Av,Gyrium,8,h,11,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+133,Aw,Sonorium,8,h,12,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+134,Ax,Fluxium,8,h,13,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+135,Ay,Quantium,8,h,14,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+136,Az,Metastium,8,h,15,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+137,Bb,Phasium,8,h,16,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+138,Bc,Anomalium,8,h,17,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+139,Bd,Octavafissium,8,f,0,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+140,Bf,Octavaradioium,8,f,1,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+141,Bg,Octavaactinium,8,f,2,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+142,Bj,Octavanucleoium,8,f,3,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+143,Bl,Octavadecayium,8,f,4,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+144,Bm,Octavafusionium,8,f,5,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+145,Bn,Octavafissbium,8,f,6,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+146,Bo,Octavaradiobium,8,f,7,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+147,Bp,Octavaactinbium,8,f,8,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+148,Bq,Octavanucleobium,8,f,9,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+149,Bs,Octavadecaybium,8,f,10,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+150,Bt,Octavafusionbium,8,f,11,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+151,Bu,Octavafisscium,8,f,12,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+152,Bv,Octavaradiocium,8,f,13,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+153,Bw,Octavaferroium,8,d,3,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+154,Bx,Octavacatalium,8,d,4,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+155,By,Octavaconductium,8,d,5,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+156,Bz,Octavachromium,8,d,6,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+157,Cb,Octavakinetium,8,d,7,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+158,Cc,Octavaallotropium,8,d,8,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+159,Cg,Octavaferrobium,8,d,9,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+160,Ch,Octavacatalbium,8,d,10,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+161,Ci,Octavaconductbium,8,d,11,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+162,Cj,Octavachrombium,8,d,12,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+163,Ck,Octavaaerium,8,p,13,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+164,Cp,Octavacrystium,8,p,14,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+165,Cq,Octavaluminium,8,p,15,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+166,Ct,Octavareactium,8,p,16,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+167,Cv,Octavaplasmium,8,p,17,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+168,Cw,Octavavaporium,8,p,18,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+169,Cx,Enneasolium,9,s,0,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+170,Cy,Enneaalkium,9,s,1,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+171,Cz,Enneaharmonium,9,h,0,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+172,Da,Ennearesonium,9,h,1,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+173,Dc,Enneagyroium,9,h,2,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+174,Dd,Enneasonorium,9,h,3,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+175,De,Ennearotarium,9,h,4,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+176,Df,Enneaphonoium,9,h,5,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+177,Dg,Enneaharmonbium,9,h,6,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+178,Dh,Ennearesonbium,9,h,7,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+179,Di,Enneagyrobium,9,h,8,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+180,Dj,Enneasonorbium,9,h,9,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+181,Dk,Ennearotarbium,9,h,10,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+182,Dl,Enneaphonobium,9,h,11,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+183,Dm,Enneaharmoncium,9,h,12,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+184,Dn,Ennearesoncium,9,h,13,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+185,Do,Enneagyrocium,9,h,14,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+186,Dp,Enneasonorcium,9,h,15,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+187,Dq,Ennearotarcium,9,h,16,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+188,Dr,Enneaphonocium,9,h,17,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+189,Dt,Enneafissium,9,f,0,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+190,Du,Ennearadioium,9,f,1,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+191,Dv,Enneaactinium,9,f,2,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+192,Dw,Enneanucleoium,9,f,3,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+193,Dx,Enneadecayium,9,f,4,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+194,Dz,Enneafusionium,9,f,5,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+195,Ea,Enneafissbium,9,f,6,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+196,Eb,Ennearadiobium,9,f,7,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+197,Ec,Enneaactinbium,9,f,8,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+198,Ed,Enneanucleobium,9,f,9,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+199,Ee,Enneadecaybium,9,f,10,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+200,Ef,Enneafusionbium,9,f,11,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+201,Eg,Enneafisscium,9,f,12,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+202,Eh,Ennearadiocium,9,f,13,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+203,Ei,Enneaferroium,9,d,3,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+204,Ej,Enneacatalium,9,d,4,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+205,Ek,Enneaconductium,9,d,5,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+206,El,Enneachromium,9,d,6,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+207,Em,Enneakinetium,9,d,7,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+208,En,Enneaallotropium,9,d,8,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+209,Eo,Enneaferrobium,9,d,9,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+210,Ep,Enneacatalbium,9,d,10,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+211,Eq,Enneaconductbium,9,d,11,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+212,Et,Enneachrombium,9,d,12,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+213,Ev,Enneaaerium,9,p,13,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+214,Ew,Enneacrystium,9,p,14,Natural deposit or processing,Venus,Not started,Pure fictional element; not an alloy
+215,Ex,Ennealuminium,9,p,15,Natural deposit or processing,Earth,Not started,Pure fictional element; not an alloy
+216,Ey,Enneareactium,9,p,16,Natural deposit or processing,Mercury,Not started,Pure fictional element; not an alloy
+217,Ez,Enneaplasmium,9,p,17,Natural deposit or processing,Mars,Not started,Pure fictional element; not an alloy
+218,Fa,Enneavaporium,9,p,18,Natural deposit or processing,Moon,Not started,Pure fictional element; not an alloy
+219,Fb,Decarasolium,10,s,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+220,Fc,Decaraalkium,10,s,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+221,Fd,Decarametaium,10,m,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+222,Ff,Decaraphaseium,10,m,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+223,Fg,Decaraquantium,10,m,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+224,Fh,Decarafluxium,10,m,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+225,Fi,Decarashiftium,10,m,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+226,Fj,Decaraisomerium,10,m,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+227,Fk,Decarametabium,10,m,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+228,Fn,Decaraphasebium,10,m,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+229,Fo,Decaraquantbium,10,m,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+230,Fp,Decarafluxbium,10,m,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+231,Fq,Decarashiftbium,10,m,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+232,Fs,Decaraisomerbium,10,m,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+233,Ft,Decarametacium,10,m,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+234,Fu,Decaraphasecium,10,m,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+235,Fv,Decaraquantcium,10,m,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+236,Fw,Decarafluxcium,10,m,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+237,Fx,Decarashiftcium,10,m,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+238,Fy,Decaraisomercium,10,m,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+239,Fz,Decarametadium,10,m,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+240,Gb,Decaraphasedium,10,m,19,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+241,Gc,Decaraquantdium,10,m,20,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+242,Gf,Decarafluxdium,10,m,21,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+243,Gg,Decaraharmonium,10,h,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+244,Gh,Decararesonium,10,h,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+245,Gi,Decaragyroium,10,h,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+246,Gj,Decarasonorium,10,h,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+247,Gk,Decararotarium,10,h,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+248,Gl,Decaraphonoium,10,h,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+249,Gm,Decaraharmonbium,10,h,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+250,Gn,Decararesonbium,10,h,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+251,Go,Decaragyrobium,10,h,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+252,Gp,Decarasonorbium,10,h,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+253,Gq,Decararotarbium,10,h,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+254,Gr,Decaraphonobium,10,h,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+255,Gs,Decaraharmoncium,10,h,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+256,Gt,Decararesoncium,10,h,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+257,Gu,Decaragyrocium,10,h,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+258,Gv,Decarasonorcium,10,h,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+259,Gw,Decararotarcium,10,h,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+260,Gx,Decaraphonocium,10,h,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+261,Gy,Decarafissium,10,f,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+262,Gz,Decararadioium,10,f,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+263,Ha,Decaraactinium,10,f,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+264,Hb,Decaranucleoium,10,f,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+265,Hc,Decaradecayium,10,f,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+266,Hd,Decarafusionium,10,f,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+267,Hh,Decarafissbium,10,f,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+268,Hi,Decararadiobium,10,f,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+269,Hj,Decaraactinbium,10,f,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+270,Hk,Decaranucleobium,10,f,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+271,Hl,Decaradecaybium,10,f,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+272,Hm,Decarafusionbium,10,f,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+273,Hn,Decarafisscium,10,f,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+274,Hp,Decararadiocium,10,f,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+275,Hq,Decaraferroium,10,d,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+276,Hr,Decaracatalium,10,d,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+277,Ht,Decaraconductium,10,d,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+278,Hu,Decarachromium,10,d,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+279,Hv,Decarakinetium,10,d,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+280,Hw,Decaraallotropium,10,d,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+281,Hx,Decaraferrobium,10,d,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+282,Hy,Decaracatalbium,10,d,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+283,Hz,Decaraconductbium,10,d,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+284,Ia,Decarachrombium,10,d,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+285,Ib,Decaraaerium,10,p,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+286,Ic,Decaracrystium,10,p,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+287,Id,Decaraluminium,10,p,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+288,Ie,Decarareactium,10,p,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+289,If,Decaraplasmium,10,p,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+290,Ig,Decaravaporium,10,p,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+291,Ih,Undecasolium,11,s,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+292,Ii,Undecaalkium,11,s,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+293,Ij,Undecametaium,11,m,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+294,Ik,Undecaphaseium,11,m,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+295,Il,Undecaquantium,11,m,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+296,Im,Undecafluxium,11,m,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+297,Io,Undecashiftium,11,m,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+298,Ip,Undecaisomerium,11,m,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+299,Iq,Undecametabium,11,m,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+300,Is,Undecaphasebium,11,m,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+301,It,Undecaquantbium,11,m,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+302,Iu,Undecafluxbium,11,m,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+303,Iv,Undecashiftbium,11,m,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+304,Iw,Undecaisomerbium,11,m,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+305,Ix,Undecametacium,11,m,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+306,Iy,Undecaphasecium,11,m,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+307,Iz,Undecaquantcium,11,m,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+308,Ja,Undecafluxcium,11,m,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+309,Jb,Undecashiftcium,11,m,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+310,Jc,Undecaisomercium,11,m,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+311,Jd,Undecametadium,11,m,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+312,Je,Undecaphasedium,11,m,19,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+313,Jf,Undecaquantdium,11,m,20,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+314,Jg,Undecafluxdium,11,m,21,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+315,Jh,Undecaharmonium,11,h,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+316,Ji,Undecaresonium,11,h,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+317,Jj,Undecagyroium,11,h,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+318,Jk,Undecasonorium,11,h,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+319,Jl,Undecarotarium,11,h,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+320,Jm,Undecaphonoium,11,h,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+321,Jn,Undecaharmonbium,11,h,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+322,Jo,Undecaresonbium,11,h,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+323,Jp,Undecagyrobium,11,h,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+324,Jq,Undecasonorbium,11,h,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+325,Jr,Undecarotarbium,11,h,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+326,Js,Undecaphonobium,11,h,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+327,Jt,Undecaharmoncium,11,h,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+328,Ju,Undecaresoncium,11,h,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+329,Jv,Undecagyrocium,11,h,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+330,Jw,Undecasonorcium,11,h,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+331,Jx,Undecarotarcium,11,h,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+332,Jy,Undecaphonocium,11,h,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+333,Jz,Undecafissium,11,f,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+334,Ka,Undecaradioium,11,f,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+335,Kb,Undecaactinium,11,f,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+336,Kc,Undecanucleoium,11,f,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+337,Kd,Undecadecayium,11,f,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+338,Ke,Undecafusionium,11,f,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+339,Kf,Undecafissbium,11,f,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+340,Kg,Undecaradiobium,11,f,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+341,Kh,Undecaactinbium,11,f,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+342,Ki,Undecanucleobium,11,f,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+343,Kj,Undecadecaybium,11,f,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+344,Kk,Undecafusionbium,11,f,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+345,Kl,Undecafisscium,11,f,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+346,Km,Undecaradiocium,11,f,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+347,Kn,Undecaferroium,11,d,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+348,Ko,Undecacatalium,11,d,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+349,Kp,Undecaconductium,11,d,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+350,Kq,Undecachromium,11,d,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+351,Ks,Undecakinetium,11,d,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+352,Kt,Undecaallotropium,11,d,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+353,Ku,Undecaferrobium,11,d,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+354,Kv,Undecacatalbium,11,d,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+355,Kw,Undecaconductbium,11,d,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+356,Kx,Undecachrombium,11,d,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+357,Ky,Undecaaerium,11,p,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+358,Kz,Undecacrystium,11,p,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+359,Lb,Undecaluminium,11,p,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+360,Lc,Undecareactium,11,p,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+361,Ld,Undecaplasmium,11,p,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+362,Le,Undecavaporium,11,p,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+363,Lf,Dodecasolium,12,s,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+364,Lg,Dodecaalkium,12,s,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+365,Lh,Dodecaanomium,12,a,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+366,Lj,Dodecachronoium,12,a,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+367,Lk,Dodecagravium,12,a,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+368,Ll,Dodecaparadoxium,12,a,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+369,Lm,Dodecaaxium,12,a,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+370,Ln,Dodecavoidium,12,a,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+371,Lo,Dodecaanombium,12,a,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+372,Lp,Dodecachronobium,12,a,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+373,Lq,Dodecagravibum,12,a,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+374,Ls,Dodecaparadoxbium,12,a,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+375,Lt,Dodecaaxibum,12,a,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+376,Lw,Dodecavoidbium,12,a,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+377,Lx,Dodecaanomcium,12,a,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+378,Ly,Dodecachronocium,12,a,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+379,Lz,Dodecagravicum,12,a,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+380,Ma,Dodecaparadoxcium,12,a,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+381,Mb,Dodecaaxicum,12,a,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+382,Me,Dodecavoidcium,12,a,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+383,Mf,Dodecaanomdium,12,a,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+384,Mh,Dodecachronodium,12,a,19,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+385,Mi,Dodecagravidum,12,a,20,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+386,Mj,Dodecaparadoxdium,12,a,21,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+387,Mk,Dodecaaxidum,12,a,22,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+388,Ml,Dodecavoiddium,12,a,23,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+389,Mm,Dodecaanomeium,12,a,24,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+390,Mp,Dodecachronoeium,12,a,25,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+391,Mq,Dodecametaium,12,m,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+392,Mr,Dodecaphaseium,12,m,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+393,Ms,Dodecaquantium,12,m,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+394,Mu,Dodecafluxium,12,m,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+395,Mv,Dodecashiftium,12,m,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+396,Mw,Dodecaisomerium,12,m,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+397,Mx,Dodecametabium,12,m,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+398,My,Dodecaphasebium,12,m,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+399,Mz,Dodecaquantbium,12,m,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+400,Nc,Dodecafluxbium,12,m,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+401,Nf,Dodecashiftbium,12,m,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+402,Ng,Dodecaisomerbium,12,m,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+403,Nj,Dodecametacium,12,m,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+404,Nk,Dodecaphasecium,12,m,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+405,Nl,Dodecaquantcium,12,m,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+406,Nm,Dodecafluxcium,12,m,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+407,Nn,Dodecashiftcium,12,m,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+408,Nq,Dodecaisomercium,12,m,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+409,Nr,Dodecametadium,12,m,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+410,Ns,Dodecaphasedium,12,m,19,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+411,Nt,Dodecaquantdium,12,m,20,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+412,Nu,Dodecafluxdium,12,m,21,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+413,Nv,Dodecaharmonium,12,h,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+414,Nw,Dodecaresonium,12,h,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+415,Nx,Dodecagyroium,12,h,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+416,Ny,Dodecasonorium,12,h,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+417,Nz,Dodecarotarium,12,h,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+418,Oa,Dodecaphonoium,12,h,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+419,Ob,Dodecaharmonbium,12,h,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+420,Oc,Dodecaresonbium,12,h,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+421,Od,Dodecagyrobium,12,h,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+422,Oe,Dodecasonorbium,12,h,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+423,Of,Dodecarotarbium,12,h,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+424,Oh,Dodecaphonobium,12,h,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+425,Oi,Dodecaharmoncium,12,h,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+426,Oj,Dodecaresoncium,12,h,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+427,Ok,Dodecagyrocium,12,h,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+428,Ol,Dodecasonorcium,12,h,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+429,Om,Dodecarotarcium,12,h,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+430,On,Dodecaphonocium,12,h,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+431,Oo,Dodecafissium,12,f,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+432,Op,Dodecaradioium,12,f,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+433,Oq,Dodecaactinium,12,f,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+434,Or,Dodecanucleoium,12,f,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+435,Ot,Dodecadecayium,12,f,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+436,Ou,Dodecafusionium,12,f,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+437,Ov,Dodecafissbium,12,f,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+438,Ow,Dodecaradiobium,12,f,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+439,Ox,Dodecaactinbium,12,f,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+440,Oy,Dodecanucleobium,12,f,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+441,Oz,Dodecadecaybium,12,f,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+442,Pc,Dodecafusionbium,12,f,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+443,Pe,Dodecafisscium,12,f,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+444,Pf,Dodecaradiocium,12,f,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+445,Pg,Dodecaferroium,12,d,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+446,Ph,Dodecacatalium,12,d,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+447,Pi,Dodecaconductium,12,d,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+448,Pj,Dodecachromium,12,d,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+449,Pk,Dodecakinetium,12,d,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+450,Pl,Dodecaallotropium,12,d,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+451,Pn,Dodecaferrobium,12,d,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+452,Pp,Dodecacatalbium,12,d,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+453,Pq,Dodecaconductbium,12,d,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+454,Ps,Dodecachrombium,12,d,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+455,Pv,Dodecaaerium,12,p,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+456,Pw,Dodecacrystium,12,p,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+457,Px,Dodecaluminium,12,p,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+458,Py,Dodecareactium,12,p,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+459,Pz,Dodecaplasmium,12,p,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+460,Qa,Dodecavaporium,12,p,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+461,Qb,Tridecasolium,13,s,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+462,Qc,Tridecaalkium,13,s,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+463,Qd,Tridecaanomium,13,a,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+464,Qe,Tridecachronoium,13,a,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+465,Qf,Tridecagravium,13,a,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+466,Qg,Tridecaparadoxium,13,a,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+467,Qh,Tridecaaxium,13,a,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+468,Qi,Tridecavoidium,13,a,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+469,Qj,Tridecaanombium,13,a,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+470,Qk,Tridecachronobium,13,a,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+471,Ql,Tridecagravibum,13,a,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+472,Qm,Tridecaparadoxbium,13,a,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+473,Qn,Tridecaaxibum,13,a,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+474,Qo,Tridecavoidbium,13,a,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+475,Qp,Tridecaanomcium,13,a,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+476,Qq,Tridecachronocium,13,a,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+477,Qr,Tridecagravicum,13,a,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+478,Qs,Tridecaparadoxcium,13,a,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+479,Qt,Tridecaaxicum,13,a,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+480,Qu,Tridecavoidcium,13,a,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+481,Qv,Tridecaanomdium,13,a,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+482,Qw,Tridecachronodium,13,a,19,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+483,Qx,Tridecagravidum,13,a,20,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+484,Qy,Tridecaparadoxdium,13,a,21,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+485,Qz,Tridecaaxidum,13,a,22,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+486,Rc,Tridecavoiddium,13,a,23,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+487,Rd,Tridecaanomeium,13,a,24,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+488,Ri,Tridecachronoeium,13,a,25,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+489,Rj,Tridecametaium,13,m,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+490,Rk,Tridecaphaseium,13,m,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+491,Rl,Tridecaquantium,13,m,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+492,Rm,Tridecafluxium,13,m,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+493,Ro,Tridecashiftium,13,m,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+494,Rp,Tridecaisomerium,13,m,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+495,Rq,Tridecametabium,13,m,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+496,Rr,Tridecaphasebium,13,m,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+497,Rs,Tridecaquantbium,13,m,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+498,Rt,Tridecafluxbium,13,m,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+499,Rv,Tridecashiftbium,13,m,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+500,Rw,Tridecaisomerbium,13,m,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+501,Rx,Tridecametacium,13,m,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+502,Ry,Tridecaphasecium,13,m,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+503,Rz,Tridecaquantcium,13,m,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+504,Sa,Tridecafluxcium,13,m,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+505,Sd,Tridecashiftcium,13,m,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+506,Sf,Tridecaisomercium,13,m,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+507,Sh,Tridecametadium,13,m,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+508,Sj,Tridecaphasedium,13,m,19,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+509,Sk,Tridecaquantdium,13,m,20,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+510,Sl,Tridecafluxdium,13,m,21,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+511,So,Tridecaharmonium,13,h,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+512,Sp,Tridecaresonium,13,h,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+513,Sq,Tridecagyroium,13,h,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+514,Ss,Tridecasonorium,13,h,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+515,St,Tridecarotarium,13,h,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+516,Su,Tridecaphonoium,13,h,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+517,Sv,Tridecaharmonbium,13,h,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+518,Sw,Tridecaresonbium,13,h,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+519,Sx,Tridecagyrobium,13,h,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+520,Sy,Tridecasonorbium,13,h,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+521,Sz,Tridecarotarbium,13,h,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+522,Td,Tridecaphonobium,13,h,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+523,Tf,Tridecaharmoncium,13,h,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+524,Tg,Tridecaresoncium,13,h,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+525,Tj,Tridecagyrocium,13,h,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+526,Tk,Tridecasonorcium,13,h,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+527,Tn,Tridecarotarcium,13,h,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+528,To,Tridecaphonocium,13,h,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+529,Tp,Tridecafissium,13,f,0,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+530,Tq,Tridecaradioium,13,f,1,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+531,Tr,Tridecaactinium,13,f,2,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+532,Tt,Tridecanucleoium,13,f,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+533,Tu,Tridecadecayium,13,f,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+534,Tv,Tridecafusionium,13,f,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+535,Tw,Tridecafissbium,13,f,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+536,Tx,Tridecaradiobium,13,f,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+537,Ty,Tridecaactinbium,13,f,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+538,Tz,Tridecanucleobium,13,f,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+539,Ua,Tridecadecaybium,13,f,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+540,Ub,Tridecafusionbium,13,f,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+541,Uc,Tridecafisscium,13,f,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+542,Ud,Tridecaradiocium,13,f,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+543,Ue,Tridecaferroium,13,d,3,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+544,Uf,Tridecacatalium,13,d,4,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+545,Ug,Tridecaconductium,13,d,5,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+546,Uh,Tridecachromium,13,d,6,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+547,Ui,Tridecakinetium,13,d,7,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+548,Uj,Tridecaallotropium,13,d,8,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+549,Uk,Tridecaferrobium,13,d,9,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+550,Ul,Tridecacatalbium,13,d,10,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+551,Um,Tridecaconductbium,13,d,11,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+552,Un,Tridecachrombium,13,d,12,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+553,Uo,Tridecaaerium,13,p,13,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+554,Up,Tridecacrystium,13,p,14,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+555,Uq,Tridecaluminium,13,p,15,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+556,Ur,Tridecareactium,13,p,16,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+557,Us,Tridecaplasmium,13,p,17,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy
+558,Ut,Tridecavaporium,13,p,18,Particle Reaction only,Particle Accelerator,Not started,Pure fictional element; not an alloy

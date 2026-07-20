@@ -1,0 +1,39 @@
+{
+  "parent": "sol_2",
+  "name": "nyx",
+  "acceleration_at_surface": 13.2,
+  "radius": 6800000.0,
+  "position": {
+    "type": "circular_orbit_period",
+    "position_direction": {
+      "x": -0.82,
+      "y": 0.0,
+      "z": 0.57
+    },
+    "orbit_axis": {
+      "x": 0.03,
+      "y": 0.998,
+      "z": -0.04
+    },
+    "period_seconds": 1584000.0
+  },
+  "rotation": {
+    "type": "period",
+    "period_seconds": 640.0,
+    "rotation_axis": {
+      "x": 0.0,
+      "y": -1.0,
+      "z": 0.0
+    }
+  },
+  "planet_extras": {
+    "has_clouds": true,
+    "light_source_name": "sol_2"
+  },
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "rocketnautics:textures/planet/ice_planet.png"
+  },
+  "priority": 1000,
+  "disabled": true
+}

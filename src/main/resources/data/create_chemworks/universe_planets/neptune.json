@@ -1,0 +1,39 @@
+{
+  "parent": "sol",
+  "name": "neptune",
+  "acceleration_at_surface": 11.15,
+  "radius": 11000000.0,
+  "position": {
+    "type": "circular_orbit_period",
+    "position_direction": {
+      "x": 0.68,
+      "y": 0.0,
+      "z": 0.73
+    },
+    "orbit_axis": {
+      "x": 0.0,
+      "y": 1.0,
+      "z": 0.0
+    },
+    "period_seconds": 6048000.0
+  },
+  "rotation": {
+    "type": "period",
+    "period_seconds": 805.0,
+    "rotation_axis": {
+      "x": 0.05,
+      "y": -0.998,
+      "z": 0.0
+    }
+  },
+  "planet_extras": {
+    "has_clouds": true,
+    "light_source_name": "sol"
+  },
+  "planet_texture": {
+    "type": "resloc",
+    "texture": "rocketnautics:textures/planet/ice_planet.png"
+  },
+  "priority": 1000,
+  "disabled": true
+}

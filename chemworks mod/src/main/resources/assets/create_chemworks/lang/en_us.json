@@ -1,0 +1,21 @@
+{
+  "itemGroup.create_chemworks": "Create: Chemworks",
+  "item.create_chemworks.flask": "Flask",
+  "item.create_chemworks.creative_flask": "Creative Flask",
+  "block.create_chemworks.reaction_tester": "Reaction Tester",
+  "screen.create_chemworks.periodic_table": "Periodic Table",
+  "screen.create_chemworks.periodic_table.hint": "Click an element for detailed properties",
+  "screen.create_chemworks.periodic_table.select": "Choose an Element for the Creative Flask",
+  "screen.create_chemworks.periodic_table.select_hint": "Click an element to fill the held flask",
+  "item.create_chemworks.reaction_schematic": "Reaction Schematic",
+  "item.create_chemworks.materialized_metal": "Materialized Metal",
+  "block.create_chemworks.reaction_board": "Reaction Board",
+  "block.create_chemworks.chemical_tank": "Chemical Tank",
+  "block.create_chemworks.chemical_pipe": "Chemical Pipe",
+  "block.create_chemworks.chemical_valve": "Chemical Valve",
+  "block.create_chemworks.chemical_pump": "Chemical Pump",
+  "block.create_chemworks.reaction_controller": "Reaction Controller",
+  "block.create_chemworks.chaos_stone": "Chaos Stone",
+  "block.create_chemworks.t_metal_ore": "Rare Deep Metal Ore",
+  "block.create_chemworks.particle_accelerator": "Particle Accelerator"
+}

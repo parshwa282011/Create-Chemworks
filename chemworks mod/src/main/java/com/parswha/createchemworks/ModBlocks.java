@@ -30,7 +30,8 @@ public final class ModBlocks {
             ReactionControllerBlock::new, BlockBehaviour.Properties.of().strength(4.0f));
     public static final DeferredBlock<Block> CHAOS_STONE = BLOCKS.registerSimpleBlock("chaos_stone",
             BlockBehaviour.Properties.of().strength(50.0f, 1_200.0f).requiresCorrectToolForDrops());
-    public static final DeferredBlock<Block> T_METAL_ORE = BLOCKS.registerSimpleBlock("t_metal_ore",
+    public static final DeferredBlock<Block> T_METAL_ORE = BLOCKS.registerBlock("t_metal_ore",
+            com.parswha.createchemworks.world.ChaosMetalOreBlock::new,
             BlockBehaviour.Properties.of().strength(65.0f, 1_200.0f).requiresCorrectToolForDrops());
     public static final DeferredBlock<ParticleAcceleratorBlock> PARTICLE_ACCELERATOR = BLOCKS.registerBlock("particle_accelerator",
             ParticleAcceleratorBlock::new, BlockBehaviour.Properties.of().strength(8.0f));

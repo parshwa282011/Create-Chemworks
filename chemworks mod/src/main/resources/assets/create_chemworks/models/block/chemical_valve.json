@@ -1,1 +1,1 @@
-{"parent":"minecraft:block/cube_all","textures":{"all":"minecraft:block/exposed_copper"}}
+{"parent":"minecraft:block/cube_all","textures":{"all":"create_chemworks:block/chemical_valve"}}

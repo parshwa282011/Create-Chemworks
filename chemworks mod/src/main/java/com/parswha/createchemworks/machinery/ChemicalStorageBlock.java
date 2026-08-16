@@ -16,6 +16,9 @@ import net.minecraft.world.ItemInteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.InteractionResult;
+import net.neoforged.neoforge.network.PacketDistributor;
+import com.parswha.createchemworks.chemistry.OpenChemicalTankPayload;
 
 public class ChemicalStorageBlock extends BaseEntityBlock {
     public static final MapCodec<ChemicalStorageBlock> CODEC = simpleCodec(ChemicalStorageBlock::new);
@@ -42,6 +45,12 @@ public class ChemicalStorageBlock extends BaseEntityBlock {
             return ItemInteractionResult.sidedSuccess(level.isClientSide);
         }
         return ItemInteractionResult.PASS_TO_DEFAULT_BLOCK_INTERACTION;
+    }
+    @Override protected InteractionResult useWithoutItem(BlockState state, Level level, BlockPos pos, Player player, BlockHitResult hit) {
+        if (!level.isClientSide && player instanceof net.minecraft.server.level.ServerPlayer serverPlayer
+                && level.getBlockEntity(pos) instanceof ChemicalStorageBlockEntity storage)
+            PacketDistributor.sendToPlayer(serverPlayer, OpenChemicalTankPayload.from(pos, storage));
+        return InteractionResult.sidedSuccess(level.isClientSide);
     }
     @Override public <T extends BlockEntity> BlockEntityTicker<T> getTicker(Level level, BlockState state, BlockEntityType<T> type) {
         return level.isClientSide ? null : createTickerHelper(type, ModBlockEntities.CHEMICAL_STORAGE.get(), ChemicalStorageBlockEntity::tick);

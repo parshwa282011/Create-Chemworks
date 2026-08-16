@@ -2,18 +2,25 @@ package com.parswha.createchemworks.machinery;
 
 import java.util.Objects;
 
-/** A single-species, pressurised chemical volume. Amount is measured in mB. */
+/** A single-species, pressurised chemical volume. One internal unit is one millimole. */
 public final class ChemicalVolume {
     public static final double AMBIENT_K = 293.15;
+    public static final double GAS_CONSTANT_KPA_L_PER_MOL_K = 8.314462618;
+    private final long physicalVolumeUnits;
     private final long capacity;
     private String chemical = "";
     private long amount;
     private double temperatureK = AMBIENT_K;
-    private double pumpPressureKpa;
 
     public ChemicalVolume(long capacity) {
-        if (capacity <= 0) throw new IllegalArgumentException("capacity must be positive");
-        this.capacity = capacity;
+        this(capacity, 1);
+    }
+
+    public ChemicalVolume(long physicalVolumeUnits, int maximumCompressionRatio) {
+        if (physicalVolumeUnits <= 0) throw new IllegalArgumentException("volume must be positive");
+        if (maximumCompressionRatio <= 0) throw new IllegalArgumentException("compression ratio must be positive");
+        this.physicalVolumeUnits = physicalVolumeUnits;
+        this.capacity = Math.multiplyExact(physicalVolumeUnits, maximumCompressionRatio);
     }
 
     public long fill(String type, long requested, double incomingTemperatureK) {
@@ -42,9 +49,9 @@ public final class ChemicalVolume {
         return moved;
     }
 
-    /** Gameplay pressure model: ideal-gas-like fill pressure plus applied pump force. */
+    /** Ideal-gas pressure. Pumps affect pressure by moving moles into this fixed volume. */
     public double pressureKpa() {
-        return amount == 0 ? 0 : 101.325 * ((double) amount / capacity) * (temperatureK / AMBIENT_K) + pumpPressureKpa;
+        return amount == 0 ? 0 : moles() * GAS_CONSTANT_KPA_L_PER_MOL_K * temperatureK / volumeLiters();
     }
 
     public void approachTemperature(double targetK, double energyFactor) {
@@ -53,12 +60,16 @@ public final class ChemicalVolume {
     }
 
     public long capacity() { return capacity; }
+    public double moles() { return amount / 1_000.0; }
+    public double maxMoles() { return capacity / 1_000.0; }
+    public double volumeLiters() { return physicalVolumeUnits / 1_000.0; }
     public String chemical() { return chemical; }
     public long amount() { return amount; }
     public double temperatureK() { return temperatureK; }
-    public double pumpPressureKpa() { return pumpPressureKpa; }
-    public void setPumpPressureKpa(double value) { pumpPressureKpa = Math.max(0, value); }
-    public void decayPumpPressure(double fraction) { pumpPressureKpa *= Math.max(0, 1 - fraction); }
+    /** Kept for old saves/API callers; pressure is no longer stored independently. */
+    @Deprecated public double pumpPressureKpa() { return 0; }
+    @Deprecated public void setPumpPressureKpa(double value) { }
+    @Deprecated public void decayPumpPressure(double fraction) { }
     public boolean transform(String expected, String product) {
         if (amount == 0 || !chemical.replace(" ", "").equals(expected.replace(" ", "")) || product.isBlank()) return false;
         chemical = product.trim(); return true;

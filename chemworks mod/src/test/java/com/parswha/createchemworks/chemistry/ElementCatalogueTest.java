@@ -41,4 +41,12 @@ class ElementCatalogueTest {
         assertEquals(0, alloy.instability());
         assertTrue(alloy.attackSpeed() >= 0.5 && alloy.attackSpeed() <= 4.0);
     }
+
+    @Test
+    void survivalCalibrationSetCoversEveryTierExactly() {
+        for (int tier = 1; tier <= 7; tier++) {
+            assertEquals(tier, com.parswha.createchemworks.integration.tetra.ChemworksTetraIntegration
+                    .alloyTier(AlloyCommand.calibrationAlloy(tier)));
+        }
+    }
 }

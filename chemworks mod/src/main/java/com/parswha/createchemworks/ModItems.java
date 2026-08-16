@@ -16,6 +16,9 @@ public final class ModItems {
     public static final DeferredItem<Item> CREATIVE_FLASK =
             ITEMS.registerItem("creative_flask", CreativeFlaskItem::new, new Item.Properties().stacksTo(16));
 
+    public static final DeferredItem<Item> CHEMIST_GOGGLES =
+            ITEMS.registerItem("chemist_goggles", ChemistGogglesItem::new, new Item.Properties().stacksTo(1).durability(256));
+
     public static final DeferredItem<BlockItem> REACTION_TESTER =
             ITEMS.registerSimpleBlockItem("reaction_tester", ModBlocks.REACTION_TESTER);
 

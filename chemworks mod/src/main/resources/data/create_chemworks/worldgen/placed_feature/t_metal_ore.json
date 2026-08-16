@@ -1,1 +1,1 @@
-{"feature":"create_chemworks:t_metal_ore","placement":[{"type":"minecraft:count","count":2},{"type":"minecraft:in_square"},{"type":"minecraft:height_range","height":{"type":"minecraft:uniform","min_inclusive":{"absolute":-240},"max_inclusive":{"absolute":-65}}},{"type":"minecraft:biome"}]}
+{"feature":"create_chemworks:t_metal_ore","placement":[{"type":"minecraft:count","count":6},{"type":"minecraft:in_square"},{"type":"minecraft:height_range","height":{"type":"minecraft:uniform","min_inclusive":{"absolute":-60},"max_inclusive":{"absolute":0}}},{"type":"minecraft:biome"}]}

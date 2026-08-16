@@ -17,6 +17,7 @@ import java.util.Comparator;
 import java.nio.charset.StandardCharsets;
 import java.util.UUID;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.world.item.ItemStack;
 import com.parswha.createchemworks.integration.tetra.ChemworksTetraIntegration;
 import com.parswha.createchemworks.integration.tetra.MaterializedMetalItem;
 import se.mickelus.tetra.api.material.PublishResult;
@@ -39,6 +40,9 @@ public final class AlloyCommand {
                                 StringArgumentType.getString(context, "composition"), null))));
         event.getDispatcher().register(Commands.literal("alloyproperties")
                 .executes(context -> showProperties(context.getSource())));
+        event.getDispatcher().register(Commands.literal("alloytestset")
+                .requires(source -> source.hasPermission(2))
+                .executes(context -> giveTestSet(context.getSource())));
     }
 
     private static int calculate(net.minecraft.commands.CommandSourceStack source, String input, String requestedName) {
@@ -57,6 +61,9 @@ public final class AlloyCommand {
             if (publication.status() == PublishResult.Status.REJECTED) {
                 throw new IllegalArgumentException("Tetra rejected this alloy: " + publication.message());
             }
+            source.getServer().overworld().getDataStorage()
+                    .computeIfAbsent(WorldAlloyData.factory(), WorldAlloyData.FILE_NAME)
+                    .remember(materialId, alloyName, result);
             if (!(source.getEntity() instanceof net.minecraft.server.level.ServerPlayer player)) {
                 throw new IllegalArgumentException("Run /alloycalc as a player to receive the alloy flasks");
             }
@@ -115,6 +122,46 @@ public final class AlloyCommand {
     private static String value(com.google.gson.JsonObject properties, String key) {
         var value = properties.get("create_chemworks:" + key);
         return value == null ? "n/a" : value.getAsString();
+    }
+
+    private static int giveTestSet(net.minecraft.commands.CommandSourceStack source) {
+        if (!(source.getEntity() instanceof net.minecraft.server.level.ServerPlayer player)) {
+            source.sendFailure(Component.literal("Run /alloytestset as a player"));
+            return 0;
+        }
+        var saved = source.getServer().overworld().getDataStorage()
+                .computeIfAbsent(WorldAlloyData.factory(), WorldAlloyData.FILE_NAME);
+        for (int tier = 1; tier <= 7; tier++) {
+            AlloyProperties properties = calibrationAlloy(tier);
+            int actualTier = ChemworksTetraIntegration.alloyTier(properties);
+            if (actualTier != tier) throw new IllegalStateException("Calibration alloy tier mismatch: expected " + tier + ", got " + actualTier);
+            String name = "Survival Calibration Alloy T" + tier;
+            ResourceLocation id = ResourceLocation.fromNamespaceAndPath(CreateChemworks.MOD_ID, "alloy/test_tier_" + tier);
+            PublishResult result = ChemworksTetraIntegration.publishAlloy(id, name, properties);
+            if (result.status() == PublishResult.Status.REJECTED) {
+                source.sendFailure(Component.literal("Tetra rejected tier " + tier + ": " + result.message()));
+                return 0;
+            }
+            saved.remember(id, name, properties);
+            ItemStack stack = MaterializedMetalItem.createFlasks(id, name + " Flask", 16);
+            if (!player.addItem(stack)) player.drop(stack, false);
+        }
+        source.sendSuccess(() -> Component.literal("Gave 16 flasks for each persistent alloy tier (T1–T7)")
+                .withStyle(ChatFormatting.AQUA), false);
+        return 7;
+    }
+
+    static AlloyProperties calibrationAlloy(int tier) {
+        if (tier < 1 || tier > 7) throw new IllegalArgumentException("Tier must be 1–7");
+        // This profile deliberately balances one strong benefit against one drawback.
+        // The scoring math lands at tier - 0.5 before the base tier is added.
+        double strength = 140 * (tier - 0.975);
+        double brittleness = tier % 3 == 1 ? 10.5 : 0;
+        double toxicity = tier % 3 == 2 ? 9 : 0;
+        double instability = tier % 3 == 0 ? 7.5 : 0;
+        return new AlloyProperties(Math.max(1, strength), 12, 18, 0.5,
+                20 + tier * 8, 90, 9, 8 + tier,
+                brittleness, toxicity, instability, List.of("Tier " + tier + " survival calibration buff"));
     }
 
     private static List<AlloyCalculator.Constituent> parse(String input) {

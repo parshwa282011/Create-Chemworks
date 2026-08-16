@@ -7,6 +7,8 @@ import net.neoforged.fml.ModContainer;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import com.parswha.createchemworks.integration.tetra.ChemworksTetraIntegration;
+import net.neoforged.neoforge.capabilities.Capabilities;
+import net.neoforged.neoforge.capabilities.RegisterCapabilitiesEvent;
 
 @Mod(CreateChemworks.MOD_ID)
 public final class CreateChemworks {
@@ -19,13 +21,20 @@ public final class CreateChemworks {
         ModCreativeTabs.TABS.register(modEventBus);
         modEventBus.addListener(this::addCreativeTabItems);
         modEventBus.addListener(ChemistryNetwork::register);
+        modEventBus.addListener(this::registerCapabilities);
         ChemworksTetraIntegration.registerApi();
+    }
+
+    private void registerCapabilities(RegisterCapabilitiesEvent event) {
+        event.registerBlockEntity(Capabilities.EnergyStorage.BLOCK, ModBlockEntities.CHEMICAL_STORAGE.get(),
+                (storage, side) -> storage.energyStorage());
     }
 
     private void addCreativeTabItems(BuildCreativeModeTabContentsEvent event) {
         if (event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.FLASK);
             event.accept(ModItems.CREATIVE_FLASK);
+            event.accept(ModItems.CHEMIST_GOGGLES);
             event.accept(ModItems.REACTION_TESTER);
             event.accept(ModItems.REACTION_SCHEMATIC);
             event.accept(ModItems.REACTION_BOARD);

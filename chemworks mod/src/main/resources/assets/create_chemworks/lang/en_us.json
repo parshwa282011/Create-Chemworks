@@ -2,6 +2,7 @@
   "itemGroup.create_chemworks": "Create: Chemworks",
   "item.create_chemworks.flask": "Flask",
   "item.create_chemworks.creative_flask": "Creative Flask",
+  "item.create_chemworks.chemist_goggles": "Chemist Goggles",
   "block.create_chemworks.reaction_tester": "Reaction Tester",
   "screen.create_chemworks.periodic_table": "Periodic Table",
   "screen.create_chemworks.periodic_table.hint": "Click an element for detailed properties",

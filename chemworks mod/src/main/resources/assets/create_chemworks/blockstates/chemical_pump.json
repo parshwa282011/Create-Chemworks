@@ -1,1 +1,1 @@
-{"variants":{"":{"model":"create_chemworks:block/chemical_pump"}}}
+{"variants":{"facing=north":{"model":"create_chemworks:block/chemical_pump"},"facing=east":{"model":"create_chemworks:block/chemical_pump","y":90},"facing=south":{"model":"create_chemworks:block/chemical_pump","y":180},"facing=west":{"model":"create_chemworks:block/chemical_pump","y":270}}}

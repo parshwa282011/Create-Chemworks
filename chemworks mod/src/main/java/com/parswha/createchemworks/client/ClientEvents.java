@@ -9,6 +9,8 @@ import net.neoforged.neoforge.client.event.RegisterClientCommandsEvent;
 import net.minecraft.world.InteractionHand;
 import com.parswha.createchemworks.chemistry.OpenTesterPayload;
 import com.parswha.createchemworks.chemistry.OpenReactionBoardPayload;
+import com.parswha.createchemworks.chemistry.OpenChemicalTankPayload;
+import com.parswha.createchemworks.chemistry.OpenChemDebugPayload;
 
 import static net.minecraft.commands.Commands.literal;
 
@@ -27,6 +29,14 @@ public final class ClientEvents {
 
     public static void openReactionBoardScreen(OpenReactionBoardPayload payload) {
         Minecraft.getInstance().setScreen(new ReactionBoardScreen(payload.result()));
+    }
+
+    public static void openChemicalTankScreen(OpenChemicalTankPayload payload) {
+        Minecraft.getInstance().setScreen(new ChemicalTankScreen(payload));
+    }
+
+    public static void openChemDebugScreen(OpenChemDebugPayload payload) {
+        Minecraft.getInstance().setScreen(new ChemDebugScreen(payload.lines()));
     }
 
     @SubscribeEvent

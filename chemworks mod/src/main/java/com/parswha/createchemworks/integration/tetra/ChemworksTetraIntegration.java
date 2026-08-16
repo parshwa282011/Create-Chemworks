@@ -8,6 +8,7 @@ import com.parswha.createchemworks.chemistry.AlloyProperties;
 import com.parswha.createchemworks.chemistry.ChemistryRules;
 import com.parswha.createchemworks.chemistry.ElementProfile;
 import com.parswha.createchemworks.chemistry.TOrbitalTraits;
+import com.parswha.createchemworks.chemistry.WorldAlloyData;
 import com.parswha.createchemworks.client.Elements.ElectronBlock;
 import com.parswha.createchemworks.client.Elements.Element;
 import com.parswha.createchemworks.client.Elements.ElementsData;
@@ -82,6 +83,15 @@ public final class ChemworksTetraIntegration {
         }
         long available = definitions.stream().filter(definition -> TetraRuntimeMaterialRegistry.INSTANCE.get(definition.id()).isPresent()).count();
         if (available != definitions.size()) throw new IllegalStateException("Only " + available + "/" + definitions.size() + " Tetra metals became live");
+        WorldAlloyData savedAlloys = event.getServer().overworld().getDataStorage()
+                .computeIfAbsent(WorldAlloyData.factory(), WorldAlloyData.FILE_NAME);
+        int restored = 0;
+        for (WorldAlloyData.Entry alloy : savedAlloys.entries()) {
+            PublishResult restoredResult = publishAlloy(alloy.id(), alloy.name(), alloy.properties());
+            if (restoredResult.status() == PublishResult.Status.REJECTED) {
+                LOGGER.error("Could not restore saved alloy {}: {}", alloy.id(), restoredResult.message());
+            } else restored++;
+        }
         if (!definitions.isEmpty()) {
             var first = definitions.getFirst();
             var probe = MaterializedMetalItem.createFlasks(first.id(), "integration probe flask", 1);
@@ -92,6 +102,7 @@ public final class ChemworksTetraIntegration {
         }
         LOGGER.info("Published and resolved {} live Chemworks metal materials in Tetra at revision {}",
                 available, TetraRuntimeMaterialRegistry.INSTANCE.revision());
+        LOGGER.info("Restored {} persistent Chemworks alloys from the world save", restored);
     }
 
     public static synchronized PublishResult publishAlloy(ResourceLocation id, String displayName, AlloyProperties alloy) {
@@ -101,9 +112,11 @@ public final class ChemworksTetraIntegration {
 
     private static RuntimeMaterialDefinition elementDefinition(Element element) {
         ElementProfile p = ElementProfile.calculate(element);
+        int rarityTier = Math.max(1, Math.min(7, 1 + element.period() / 2
+                + (element.block() == ElectronBlock.T ? 3 : 0)));
         JsonObject json = baseJson(element.symbol().toLowerCase(Locale.ROOT), "create_chemworks:materialized_metal",
                 Math.max(1, p.meltingPointK() / 80), Math.max(20, element.number() * 6),
-                element.block() == ElectronBlock.T ? 8 : 1 + element.period() / 2);
+                rarityTier);
         JsonObject properties = new JsonObject();
         json.addProperty("displayName", element.name());
         properties.addProperty(HEAT_RESISTANCE.id().toString(), p.meltingPointK());
@@ -122,7 +135,7 @@ public final class ChemworksTetraIntegration {
         double tetraPrimary = Math.max(1, Math.min(12, a.strength() / 20));
         double tetraSecondary = Math.max(0.5, Math.min(4.5, 5.0 - a.attackSpeed()));
         JsonObject json = baseJson(id.getPath().replace('/', '_'), "create_chemworks:flask", tetraPrimary,
-                a.toughness() * 8, Math.max(1, (int) (a.hardness() / 40)));
+                a.toughness() * 8, alloyTier(a));
         json.addProperty("secondary", tetraSecondary);
         json.addProperty("displayName", displayName);
         JsonObject properties = new JsonObject();
@@ -144,7 +157,7 @@ public final class ChemworksTetraIntegration {
         json.addProperty("primary", Math.max(1, primary)); json.addProperty("secondary", Math.max(1, primary * 0.65));
         json.addProperty("tertiary", Math.max(1, primary * 0.5)); json.addProperty("durability", Math.max(1, durability));
         json.addProperty("integrityGain", Math.max(1, primary / 2)); json.addProperty("integrityCost", 1);
-        json.addProperty("toolLevel", Math.min(4, toolLevel)); json.addProperty("toolEfficiency", Math.max(1, primary));
+        json.addProperty("toolLevel", Math.max(1, Math.min(7, toolLevel))); json.addProperty("toolEfficiency", Math.max(1, primary));
         JsonArray textures = new JsonArray(); textures.add("metal"); json.add("textures", textures);
         int rgb = 0x404040 | (key.hashCode() & 0xBFBFBF);
         String argb = String.format("ff%06x", rgb & 0xFFFFFF);
@@ -170,6 +183,13 @@ public final class ChemworksTetraIntegration {
                 return weights == 0 ? 0 : total / weights;
             }
         };
+    }
+    public static int alloyTier(AlloyProperties a) {
+        double positive = a.strength() / 140 + a.hardness() / 120 + a.toughness() / 180
+                + a.heatResistance() / 900 + a.corrosionResistance() / 90 + a.attackSpeed() / 2;
+        double negative = a.brittleness() / 35 + a.toxicity() / 30 + a.instability() / 25;
+        double traits = Math.min(3, a.positiveTraits().size() / 8.0);
+        return Math.max(1, Math.min(7, (int) Math.floor(1 + positive + traits - negative)));
     }
     private static ResourceLocation id(String path) { return ResourceLocation.fromNamespaceAndPath(CreateChemworks.MOD_ID, path); }
 }

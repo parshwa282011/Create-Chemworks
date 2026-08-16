@@ -17,6 +17,9 @@ public final class ChemistryNetwork {
                 .playToClient(OpenTesterPayload.TYPE,OpenTesterPayload.STREAM_CODEC,OpenTesterPayload::handle)
                 .playToClient(OpenReactionBoardPayload.TYPE,OpenReactionBoardPayload.STREAM_CODEC,OpenReactionBoardPayload::handle)
                 .playToServer(ConfigureTesterPayload.TYPE,ConfigureTesterPayload.STREAM_CODEC,ConfigureTesterPayload::handle)
+                .playToClient(OpenChemicalTankPayload.TYPE,OpenChemicalTankPayload.STREAM_CODEC,OpenChemicalTankPayload::handle)
+                .playToClient(OpenChemDebugPayload.TYPE, OpenChemDebugPayload.STREAM_CODEC, OpenChemDebugPayload::handle)
+                .playToServer(ConfigureChemicalTankPayload.TYPE,ConfigureChemicalTankPayload.STREAM_CODEC,ConfigureChemicalTankPayload::handle)
                 .playToServer(SaveReactionPayload.TYPE,SaveReactionPayload.STREAM_CODEC,SaveReactionPayload::handle);
     }
 }
